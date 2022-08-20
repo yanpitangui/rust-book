@@ -3,7 +3,7 @@ fn main() {
     takes_ownership(s);
 
     // this is not possible, because passing a string to 
-    // a function moves its ownership
+    // a function moves its chapter4 - ownership
     // println!("{}", s);
 
     let x = 5;
@@ -51,7 +51,7 @@ fn makes_copy(some_integer: i32) {
     println!("{}", some_integer);
 }
 
-// returning a string gives ownership
+// returning a string gives chapter4 - ownership
 fn gives_ownership() -> String {
     let some_string = String::from("_");
     some_string
