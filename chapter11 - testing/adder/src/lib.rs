@@ -94,7 +94,7 @@ mod tests {
 
     #[test]
     fn is_this_correct() -> Result<(), String> {
-        if 2 + 3 == 4 {
+        if 2 + 2 == 4 {
             Ok(())
         } else {
             Err(String::from("two plus two does not equal four"))
