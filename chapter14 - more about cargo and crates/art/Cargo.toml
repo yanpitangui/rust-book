@@ -1,0 +1,10 @@
+[package]
+name = "yan_art_book"
+version = "0.1.0"
+edition = "2021"
+description = "A library for testing the publish process on crates.io"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
